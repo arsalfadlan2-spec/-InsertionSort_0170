@@ -74,6 +74,7 @@ void display(){
 
 int main()
 {
+    identitas();
     input();
     insertionsort();
     display();
