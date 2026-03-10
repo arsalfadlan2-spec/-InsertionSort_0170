@@ -6,11 +6,11 @@ int n;
 
 void identitas()
 {
-    cout << "\n=============================================";
-    cout << "Nama     :[Nama Anda]" << endl;
-    cout << "NIM      :[NIM Anda]" << endl;
-    cout << "Kelas    :[Kelas Anda]" << endl;
-    cout << "\n=============================================" << endl;
+    cout << "\n========================";
+    cout << "Nama     :[Arsyal]" << endl;
+    cout << "NIM      :[20250140170]" << endl;
+    cout << "Kelas    :[E]" << endl;
+    cout << "\n========================" << endl;
     cout << "\nProgram Mengurutkan Data Dengan Insertion Sort" << endl;
 }
 
