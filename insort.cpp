@@ -4,6 +4,16 @@ using namespace std;
 int arr[20];
 int n;
 
+void identitas()
+{
+    cout << "\n=============================================";
+    cout << "Nama     :[Nama Anda]" << endl;
+    cout << "NIM      :[NIM Anda]" << endl;
+    cout << "Kelas    :[Kelas Anda]" << endl;
+    cout << "\n=============================================" << endl;
+    cout << "\nProgram Mengurutkan Data Dengan Insertion Sort" << endl;
+}
+
 void input (){
     while (true){
         cout << "Masukkan jumlah data Pada Array : ";
@@ -32,7 +42,7 @@ void insertionsort()
     int temp;
     int j;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i < n; i++)
     {
         temp = arr[i];
         j = i - 1;
